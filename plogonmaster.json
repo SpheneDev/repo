@@ -3,7 +3,7 @@
         "Author": "SpheneDev",
         "Name": "Sphene",
         "InternalName": "Sphene",
-        "AssemblyVersion": "0.0.7",
+        "AssemblyVersion": "0.0.8",
         "Description": "This plugin will synchronize your Penumbra mods and current Glamourer state with other paired clients automatically.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/SpheneDev/client",
@@ -16,8 +16,8 @@
         "Punchline": "Become Endless. Return to Living Memory.",
         "IsHide": "False",
         "IsTestingExclusive": "False",
-        "DownloadLinkInstall": "https://github.com/SpheneDev/client/releases/download/release/latest.zip",
-        "DownloadLinkTesting": "https://github.com/SpheneDev/client/releases/download/release/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/SpheneDev/client/releases/download/release/latest.zip"
+        "DownloadLinkInstall": "https://github.com/SpheneDev/client/releases/download/v0.0.8/latest.zip",
+        "DownloadLinkTesting": "https://github.com/SpheneDev/client/releases/download/v0.0.8/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/SpheneDev/client/releases/download/v0.0.8/latest.zip"
       }
 ]
