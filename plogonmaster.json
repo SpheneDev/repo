@@ -3,7 +3,7 @@
         "Author": "SpheneDev",
         "Name": "Sphene",
         "InternalName": "Sphene",
-        "AssemblyVersion": "0.0.12",
+        "AssemblyVersion": "0.0.13",
         "Description": "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/SpheneDev/client",
@@ -16,9 +16,9 @@
         "Punchline": "Become Endless. Return to Living Memory.",
         "IsHide": "False",
         "IsTestingExclusive": "False",
-        "Changelog": "## What's Changed\r\n* Some More Sphene Like UI Text. \r\n* Implement new SpheneIcon UI component that shows a persistent draggable icon \r\n* Icon also shows Connection Status of your Regulator \r\n* Add checkbox in settings UI to control icon visibility",
-        "DownloadLinkInstall": "https://github.com/SpheneDev/client/releases/download/v0.0.12/latest.zip",
-        "DownloadLinkTesting": "https://github.com/SpheneDev/client/releases/download/v0.0.12/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/SpheneDev/client/releases/download/v0.0.12/latest.zip"
+        "Changelog": "## What's Changed\r\n* Updated Server Connection Domain\r\n* Now need to register on Sphene Server to use the plugin https://discord.com/invite/GbnwsP2XsF",
+        "DownloadLinkInstall": "https://github.com/SpheneDev/client/releases/download/v0.0.13/latest.zip",
+        "DownloadLinkTesting": "https://github.com/SpheneDev/client/releases/download/v0.0.13/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/SpheneDev/client/releases/download/v0.0.13/latest.zip"
       }
 ]
