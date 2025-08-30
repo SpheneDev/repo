@@ -3,7 +3,7 @@
         "Author": "SpheneDev",
         "Name": "Sphene",
         "InternalName": "Sphene",
-        "AssemblyVersion": "0.0.16",
+        "AssemblyVersion": "0.0.17",
         "Description": "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/SpheneDev/client",
@@ -16,9 +16,9 @@
         "Punchline": "Become Endless. Return to Living Memory.",
         "IsHide": "False",
         "IsTestingExclusive": "False",
-        "Changelog": "## What's Changed\r\n* Added performance whitelist for better user management\r\n* Users can now be added to whitelist via context menu instead of manual ID entry\r\n* Improved performance settings with helpful user notes\r\n* Better handling of character data for unpaired users\r\n* Enhanced error handling for character downloads",
-        "DownloadLinkInstall": "https://github.com/SpheneDev/client/releases/download/v0.0.16/latest.zip",
-        "DownloadLinkTesting": "https://github.com/SpheneDev/client/releases/download/v0.0.16/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/SpheneDev/client/releases/download/v0.0.16/latest.zip"
+        "Changelog": "## What's Changed\r\n* Update for PetNicknames API Update",
+        "DownloadLinkInstall": "https://github.com/SpheneDev/client/releases/download/v0.0.17/latest.zip",
+        "DownloadLinkTesting": "https://github.com/SpheneDev/client/releases/download/v0.0.17/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/SpheneDev/client/releases/download/v0.0.17/latest.zip"
       }
 ]
