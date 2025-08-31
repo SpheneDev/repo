@@ -3,7 +3,7 @@
         "Author": "SpheneDev",
         "Name": "Sphene",
         "InternalName": "Sphene",
-        "AssemblyVersion": "0.0.17",
+        "AssemblyVersion": "0.0.18",
         "Description": "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/SpheneDev/SpheneClient",
@@ -16,9 +16,9 @@
         "Punchline": "Become Endless. Return to Living Memory.",
         "IsHide": "False",
         "IsTestingExclusive": "False",
-        "Changelog": "## What's Changed\r\n* Update for PetNicknames API Changes",
-        "DownloadLinkInstall": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.17/latest.zip",
-        "DownloadLinkTesting": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.17/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.17/latest.zip"
+        "Changelog": "## What's Changed\r\n* Fixed header button centering issues for better visual consistency\r\n* Added reconnect button for better connection management",
+        "DownloadLinkInstall": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.18/latest.zip",
+        "DownloadLinkTesting": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.18/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.18/latest.zip"
       }
 ]
