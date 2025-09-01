@@ -18,7 +18,8 @@
         "IsTestingExclusive": "False",
         "Changelog": "## What's Changed\r\n* Moodles API Fix",
         "DownloadLinkInstall": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.19/latest.zip",
-        "DownloadLinkTesting": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.19/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.19/latest.zip"
+        "DownloadLinkTesting": "https://github.com/SpheneDev/SpheneClient/releases/download/test/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.19/latest.zip",
+        "TestingAssemblyVersion": "0.0.20"
       }
 ]
