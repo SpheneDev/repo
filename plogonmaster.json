@@ -3,7 +3,7 @@
         "Author": "SpheneDev",
         "Name": "Sphene",
         "InternalName": "Sphene",
-        "AssemblyVersion": "0.0.21",
+        "AssemblyVersion": "0.0.22",
         "Description": "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/SpheneDev/SpheneClient",
@@ -14,11 +14,11 @@
         "LoadPriority": 0,
         "IconUrl": "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
         "Punchline": "Become Endless. Return to Living Memory.",
-        "Changelog": "## What's Changed\r\n* Initial Update for Patch 7.31",
-        "DownloadLinkInstall": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.21/latest.zip",
+        "Changelog": "## What's Changed\r\n* - New Feature: Added Indicator for you to see if others have loaded you completely\r\n -Still in Development but out for testing now :)",
+        "DownloadLinkInstall": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.22/latest.zip",
         "DownloadLinkTesting": "https://github.com/SpheneDev/SpheneClient/releases/download/test/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.21/latest.zip",
-        "TestingAssemblyVersion": "0.0.30",
+        "DownloadLinkUpdate": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.22/latest.zip",
+        "TestingAssemblyVersion": "0.0.22",
         "TestingDalamudApiLevel": "13"
       }
 ]
