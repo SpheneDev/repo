@@ -15,9 +15,9 @@
         "IconUrl": "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
         "Punchline": "Become Endless. Return to Living Memory.",
         "Changelog": "## What's Changed\r\n* - Improved Acknowledge System: Enhanced reliability and performance of the acknowledgment system\r\n* - New Update Check System: Added automatic update notifications when starting the Sphene plugin to keep you informed about new releases\r\n* - Bug fixes and stability improvements",
-        "DownloadLinkInstall": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.22/latest.zip",
+        "DownloadLinkInstall": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.32/latest.zip",
         "DownloadLinkTesting": "https://github.com/SpheneDev/SpheneClient/releases/download/test/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.22/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.32/latest.zip",
         "TestingAssemblyVersion": "0.0.22",
         "TestingDalamudApiLevel": "13"
       }
