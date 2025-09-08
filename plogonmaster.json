@@ -1,24 +1,22 @@
-[
-    {
-        "Author": "SpheneDev",
-        "Name": "Sphene",
-        "InternalName": "Sphene",
-        "AssemblyVersion": "0.0.35",
-        "Description": "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
-        "ApplicableVersion": "any",
-        "RepoUrl": "https://github.com/SpheneDev/SpheneClient",
-        "Tags": [
-          "customization"
-        ],
-        "DalamudApiLevel": 13,
-        "LoadPriority": 0,
-        "IconUrl": "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
-        "Punchline": "Become Endless. Return to Living Memory.",
-        "Changelog": "## What's Changed\r\n* - Added a 5 second clicking Delay to the Reconnect and Incognito Button to prevent accidentaly Spamming it.\r\n* - Improvement for Acknowledgment System Added Monitor Window to track pending acknowledgemends.\r\n* - You can open it with /sphene Ack\r\n* - Some More Bug Fixes :)",
-        "DownloadLinkInstall": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.35/latest.zip",
-        "DownloadLinkTesting": "https://github.com/SpheneDev/SpheneClient/releases/download/test/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.35/latest.zip",
-        "TestingAssemblyVersion": "0.0.22",
-        "TestingDalamudApiLevel": "13"
-      }
-]
+﻿{
+    "Author":  "SpheneDev",
+    "Name":  "Sphene",
+    "InternalName":  "Sphene",
+    "AssemblyVersion":  "0.0.36",
+    "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
+    "ApplicableVersion":  "any",
+    "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
+    "Tags":  [
+                 "customization"
+             ],
+    "DalamudApiLevel":  13,
+    "LoadPriority":  0,
+    "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
+    "Punchline":  "Become Endless. Return to Living Memory.",
+    "Changelog":  "- Added a 5 second clicking Delay to the Reconnect and Incognito Button to prevent accidentaly Spamming it.\r\n - Improvement for Acknowledgment System Added Monitor Window to track pending acknowledgemends.\r\n - You can open it with /sphene Ack\r\n - Some More Bug Fixes :)",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.36/latest.zip",
+    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.36/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.36/latest.zip",
+    "TestingAssemblyVersion":  "0.0.22",
+    "TestingDalamudApiLevel":  "13"
+}
