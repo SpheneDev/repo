@@ -3,7 +3,7 @@
     "Author":  "SpheneDev",
     "Name":  "Sphene",
     "InternalName":  "Sphene",
-    "AssemblyVersion":  "0.0.39",
+    "AssemblyVersion":  "0.0.40",
     "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
@@ -14,10 +14,10 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
     "Punchline":  "Become Endless. Return to Living Memory.",
-    "Changelog":  "- MessageService for managing acknowledgment notifications.\r\n - UI settings tab for acknowledgment configuration.\r\n - Added Client \u003c-\u003e Server Version Check to prevent connecting Outdated Clients that are missing important features.",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.39/latest.zip",
-    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.39/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.39/latest.zip",
+    "Changelog":  "- MessageService for managing acknowledgment notifications.\r\n - UI settings tab for acknowledgment configuration.\r\n - Added Client \u003c-\u003e Server Version Check to prevent connecting Outdated Clients that are missing important features.\r\n - Add new setting to control (waiting for acknowledgment) popups separately\r\n - Implement delayed data push for new users to stabilize connections\r\n - Add character reload delay after acknowledgment to prevent flickering\r\n - Refactor notification service to respect new acknowledgment settings",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.40/latest.zip",
+    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.40/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.0.40/latest.zip",
     "TestingAssemblyVersion":  "0.0.22",
     "TestingDalamudApiLevel":  "13"
 }
