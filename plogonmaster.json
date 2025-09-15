@@ -3,7 +3,7 @@
     "Author":  "SpheneDev",
     "Name":  "Sphene",
     "InternalName":  "Sphene",
-    "AssemblyVersion":  "0.1.0",
+    "AssemblyVersion":  "0.1.1",
     "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
@@ -14,10 +14,10 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
     "Punchline":  "Become Endless. Return to Living Memory.",
-    "Changelog":  "- Acknowledge System now Bidirektional.\r\n - Yellow and Green Eye shows if you see the other with his actual appearance.\r\n - Yellow Clock and Green Checkmark shows you if the other Player has loaded you like you see yourself.\r\n - Default setting for **Show Acknowledgement Notifications** is now unchecked.\r\n - Default location for **Acknowledgement Notifications** has been changed from Chat to Toast.",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.0/latest.zip",
-    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.0/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.0/latest.zip",
+    "Changelog":  "- Temporarily Removed 8 Second Reload\r\n- Acknowledge system needs a litte more work :)",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.1/latest.zip",
+    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.1/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.1/latest.zip",
     "TestingAssemblyVersion":  "0.0.22",
     "TestingDalamudApiLevel":  "13"
 }
