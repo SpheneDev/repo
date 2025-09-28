@@ -14,7 +14,7 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
     "Punchline":  "Become Endless. Return to Living Memory.",
-    "Changelog":  "- Implement window width locking functionality with dragable width\r\n- Add new paused syncshell state handling in incognito mode\r\n- Added Online user Count for your Paired Users.\r\n- Improve folder width consistency across UI components\r\n- Add syncshell indicators for visible pairs\r\n- Enhance group folder styling and button positioning",
+    "Changelog":  "- Implement window width locking functionality with dragable width\r\n- Add new paused syncshell state handling in incognito mode\r\n- Added Online user Count for your Paired Users.\r\n- Improve folder width consistency across UI components\r\n- Add syncshell indicators for online pairs\r\n- Enhance group folder styling and button positioning",
     "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.10/latest.zip",
     "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.10/latest.zip",
     "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.10/latest.zip",
