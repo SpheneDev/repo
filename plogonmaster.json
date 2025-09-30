@@ -3,7 +3,7 @@
     "Author":  "SpheneDev",
     "Name":  "Sphene",
     "InternalName":  "Sphene",
-    "AssemblyVersion":  "0.1.10",
+    "AssemblyVersion":  "0.1.11",
     "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
@@ -14,10 +14,10 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
     "Punchline":  "Become Endless. Return to Living Memory.",
-    "Changelog":  "- Implement window width locking functionality with dragable width\r\n- Add new paused syncshell state handling in incognito mode\r\n- Added Online user Count for your Paired Users.\r\n- Improve folder width consistency across UI components\r\n- Add syncshell indicators for online pairs\r\n- Enhance group folder styling and button positioning",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.10/latest.zip",
-    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.10/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.10/latest.zip",
+    "Changelog":  "- Add the Sphene Image Cropper browser link to the profile edit page, including a security notice.\r\n- Implement a table-based layout to improve the organisation and display of the profile editor.\r\n- The client update notification now appears as a hint in CompactUI and as an icon indicator on the draggable Sphene icon.\r\n- Add a toast notification to alert users when a new version is available.",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.11/latest.zip",
+    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.11/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.11/latest.zip",
     "TestingAssemblyVersion":  "0.0.22",
     "TestingDalamudApiLevel":  "13"
 }
