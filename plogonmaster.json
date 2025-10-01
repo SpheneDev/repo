@@ -3,7 +3,7 @@
     "Author":  "SpheneDev",
     "Name":  "Sphene",
     "InternalName":  "Sphene",
-    "AssemblyVersion":  "0.1.11",
+    "AssemblyVersion":  "0.1.12",
     "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
@@ -14,10 +14,10 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
     "Punchline":  "Become Endless. Return to Living Memory.",
-    "Changelog":  "- Add the Sphene Image Cropper browser link to the profile edit page, including a security notice.\r\n- Implement a table-based layout to improve the organisation and display of the profile editor.\r\n- The client update notification now appears as a hint in CompactUI and as an icon indicator on the draggable Sphene icon.\r\n- Add a toast notification to alert users when a new version is available.",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.11/latest.zip",
-    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.11/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.11/latest.zip",
+    "Changelog":  "- A little more adjustment to the acknowledgement system.\r\n- It is now triggered instantly when you change something in your Glamourer or Penumbra to reflect the status more accurately.",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.12/latest.zip",
+    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.12/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.12/latest.zip",
     "TestingAssemblyVersion":  "0.0.22",
     "TestingDalamudApiLevel":  "13"
 }
