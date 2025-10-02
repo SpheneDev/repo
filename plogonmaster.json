@@ -3,7 +3,7 @@
     "Author":  "SpheneDev",
     "Name":  "Sphene",
     "InternalName":  "Sphene",
-    "AssemblyVersion":  "0.1.12",
+    "AssemblyVersion":  "0.1.13",
     "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
@@ -14,10 +14,10 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
     "Punchline":  "Become Endless. Return to Living Memory.",
-    "Changelog":  "- A little more adjustment to the acknowledgement system.\r\n- It is now triggered instantly when you change something in your Glamourer or Penumbra to reflect the status more accurately.",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.12/latest.zip",
-    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.12/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.12/latest.zip",
+    "Changelog":  "- A storage management section has been added to the texture backup UI.\r\n- Added a \u0027Cleanup\u0027 button for old backups (older than 3 days) to the texture backup UI.\r\n- Fixed cache folder validation fails if the texture_backups folder exists.\r\n- Redesigned the complete settings UI to give it a more modern look.",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.13/latest.zip",
+    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.13/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.13/latest.zip",
     "TestingAssemblyVersion":  "0.0.22",
     "TestingDalamudApiLevel":  "13"
 }
