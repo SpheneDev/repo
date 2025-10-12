@@ -3,7 +3,7 @@
     "Author":  "SpheneDev",
     "Name":  "Sphene",
     "InternalName":  "Sphene",
-    "AssemblyVersion":  "0.1.13",
+    "AssemblyVersion":  "1.0.0",
     "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
@@ -14,10 +14,10 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
     "Punchline":  "Become Endless. Return to Living Memory.",
-    "Changelog":  "- A storage management section has been added to the texture backup UI.\r\n- Added a \u0027Cleanup\u0027 button for old backups (older than 3 days) to the texture backup UI.\r\n- Fixed cache folder validation fails if the texture_backups folder exists.\r\n- Redesigned the complete settings UI to give it a more modern look.",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.13/latest.zip",
-    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.13/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v0.1.13/latest.zip",
+    "Changelog":  "- New Feature: Public City \u0026 Area Bound Syncshells\r\n - Added Public City Syncshells available in Limsa Lominsa, New Gridania, and Ul\u0027dah\r\n - Players can choose to join or ignore Public Syncshells when entering a city for the first time\r\n - Added option to disable future Public Syncshell join prompts\r\n - Added rule acceptance before joining Public Syncshells\r\n - Automatic reconnect when re-entering a city area\r\n - Auto-join behavior can be toggled in settings\r\n - Added Area Bound Syncshells for housing plots, interiors, and private rooms\r\n - Only owners or housing members can create Area Bound Syncshells\r\n - Added optional welcome page with custom banner and greeting\r\n - Added customizable rules and entry permissions for Area Bound Syncshells\r\n - Added auto-join user limit setting (up to 200)\r\n - Area Bound Syncshells automatically remove users when leaving the area\r\n - Added toggle to activate or deactivate Area Syncshells\r\n - Area binding deactivation removes all currently joined users\r\n - Prevented non-owners from creating Syncshells on other players\u0027 plots\r\n - Added event support through Sphene Team-requested Area Syncshells\r\n\r\n - New Feature: Sphene Theme System\r\n - Added full client theme customization support\r\n - Added ability to save, load, and share themes with other users\r\n - Each window now follows the chosen theme except the Sphene Control Panel\r\n - Added right-click context menu to Sphene icon listing installed plugins\r\n - Context menu currently supports Penumbra, Glamourer, Simple Heals, Livepose, Customize+, Honorific, Moodles, PetNicknames and Brio\r\n - Removed Panel Lock Width due to scaling issues in Dalamud",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.0/latest.zip",
+    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.0/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.0/latest.zip",
     "TestingAssemblyVersion":  "0.0.22",
     "TestingDalamudApiLevel":  "13"
 }
