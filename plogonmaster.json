@@ -3,7 +3,7 @@
     "Author":  "SpheneDev",
     "Name":  "Sphene",
     "InternalName":  "Sphene",
-    "AssemblyVersion":  "1.0.1",
+    "AssemblyVersion":  "1.0.2",
     "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
@@ -14,10 +14,10 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
     "Punchline":  "Become Endless. Return to Living Memory.",
-    "Changelog":  "- fix wrong Server Selection after Sphene Update",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.1/latest.zip",
-    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.1/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.1/latest.zip",
+    "Changelog":  "- Removed Test Server from Config.",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.2/latest.zip",
+    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.2/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.2/latest.zip",
     "TestingAssemblyVersion":  "0.0.22",
     "TestingDalamudApiLevel":  "13"
 }
