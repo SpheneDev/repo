@@ -3,7 +3,7 @@
     "Author":  "SpheneDev",
     "Name":  "Sphene",
     "InternalName":  "Sphene",
-    "AssemblyVersion":  "1.0.4",
+    "AssemblyVersion":  "1.0.5",
     "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
@@ -14,10 +14,10 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
     "Punchline":  "Become Endless. Return to Living Memory.",
-    "Changelog":  "v1.0.4\r\n - Theme Manager: Now you can also customize the loading bar in the UI and the ones below the players. - Update Notification in UI now is fully in Place :) ",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.4/latest.zip",
-    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.4/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.4/latest.zip",
+    "Changelog":  "- Theme Manager: Now you can also customize the loading bar in the UI and the ones below the players. - Update Notification in UI now is fully in Place :) ",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.5/latest.zip",
+    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.5/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.5/latest.zip",
     "TestingAssemblyVersion":  "0.0.22",
     "TestingDalamudApiLevel":  "13"
 }
