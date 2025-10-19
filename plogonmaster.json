@@ -3,7 +3,7 @@
     "Author":  "SpheneDev",
     "Name":  "Sphene",
     "InternalName":  "Sphene",
-    "AssemblyVersion":  "1.0.7",
+    "AssemblyVersion":  "1.0.8",
     "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
@@ -14,10 +14,10 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
     "Punchline":  "Become Endless. Return to Living Memory.",
-    "Changelog":  "**Changes \u0026 Enhancements:**\r\n\r\n * Public City Syncshells now feature distinct names such as *Gridania Raiden* and *Limsa Phantom* for better identification.\r\n * You can now permanently leave an area or public Syncshell after joining it.\r\n * The UI now displays a toast notification when area Syncshells are available in your location. If auto-consent is enabled, a consent pop-up will appear immediately.\r\n * Added a new toggle in the settings and consent UI to control automatic consent pop-ups.\r\n * Improved detection and notification logic for area Syncshells.\r\n * A new button appears next to the Incognito button to open the area Syncshell selection. This button is only visible when area Syncshells are available.",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.7/latest.zip",
-    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.7/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.7/latest.zip",
+    "Changelog":  "**Changes \u0026 Enhancements:**\r\n\r\n * Added Disconnect Button in Control Panel.\r\n * The server connection status has been moved to another location in the panel.\r\n * A few more changes to the panel UI.\r\n * Bug fixes.",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.8/latest.zip",
+    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.8/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.8/latest.zip",
     "TestingAssemblyVersion":  "0.0.22",
     "TestingDalamudApiLevel":  "13"
 }
