@@ -3,7 +3,7 @@
     "Author":  "SpheneDev",
     "Name":  "Sphene",
     "InternalName":  "Sphene",
-    "AssemblyVersion":  "1.0.8",
+    "AssemblyVersion":  "1.0.9",
     "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
@@ -14,10 +14,10 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/Sphene/images/icon.png",
     "Punchline":  "Become Endless. Return to Living Memory.",
-    "Changelog":  "**Changes \u0026 Enhancements:**\r\n\r\n * Added Disconnect Button in Control Panel.\r\n * The server connection status has been moved to another location in the panel.\r\n * A few more changes to the panel UI.\r\n * Bug fixes.",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.8/latest.zip",
-    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.8/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.8/latest.zip",
+    "Changelog":  "**Changes \u0026 Enhancements:**\r\n\r\n * Added Disconnect Button in Control Panel.\r\n * The server connection status has been moved to another location in the panel.\r\n * A few more changes to the panel UI.\r\n * Bug fixes.\r\n\r\n **Hotfix in v1.0.9:**\r\n\r\n * Area Syncshell Button in Panel didnt work when **Auto show consent dialogs** where disabled.",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.9/latest.zip",
+    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.9/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.9/latest.zip",
     "TestingAssemblyVersion":  "0.0.22",
     "TestingDalamudApiLevel":  "13"
 }
