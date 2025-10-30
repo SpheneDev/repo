@@ -16,9 +16,10 @@
     "Punchline":  "Become Endless. Return to Living Memory.",
     "Changelog":  "** Halloween is Near **\r\n * Made Sphene a little bit more **Spooky** :D\r\n *\r\n **Changes \u0026 Enhancements:**\r\n *\r\n * Support for Parallel Uploads\r\n * Some Small Bugifixes",
     "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.14/latest.zip",
-    "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.14/latest.zip",
     "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.0.14/latest.zip",
-    "TestingAssemblyVersion":  "0.0.22",
+    "DownloadLinkTesting":  "https://sphene.online/dev/latest.zip",
+    "TestingChangelog": "Testing Version\n** Added **\n* Automatic or manual texture conversion mode.\n* In automatic mode, textures are automatically reduced in size in the background.\n* A spinning indicator is displayed in the control panel during automatic conversion.\n\n** Settings **\n* New Textures tab added with new settings.* Experimental tab added with experimental settings.\n** Changed and Improved **\n* The backup system has been massively improved.\n* Backups are now sensibly assigned to mods to correctly back up duplicate textures.\n* Backup files can now automatically save up to 85% storage space in a zip archive.\n* The Texture Conversion window has been tidied up a bit and expanded with the Texture Settings.\n\n** Experimental **\n* Upload Conversion Gate.\n* Active: Uploads wait for ongoing conversions (may cause delays).\n* Deactivated: Uploads continue immediately (no waiting).",
+    "TestingAssemblyVersion":  "1.0.15",
     "TestingDalamudApiLevel":  "13"
 }
 ]
