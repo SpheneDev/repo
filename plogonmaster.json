@@ -26,7 +26,7 @@
     "Author":  "SpheneDev",
     "Name":  "ShrinkU",
     "InternalName":  "ShrinkU",
-    "AssemblyVersion":  "0.0.1",
+    "AssemblyVersion":  "0.0.2",
     "Description":  "ShrinkU - Reduce your texture file sizes to save storage space.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/ShrinkU",
@@ -37,12 +37,12 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/images/ShrinkU.png",
     "Punchline":  "ShrinkU - Reduce your texture file sizes to save storage space.",
-    "Changelog":  "Initial Release",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/ShrinkU/releases/download/v.0.0.1/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/ShrinkU/releases/download/v.0.0.1/latest.zip",
+    "Changelog":  "Changelog can be found in the GitHub repository Release Build.",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/ShrinkU/releases/download/v.0.0.2/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/ShrinkU/releases/download/v.0.0.2/latest.zip",
     "DownloadLinkTesting":  "https://sphene.online/dev/latest.zip",
     "TestingChangelog": "",
-    "TestingAssemblyVersion":  "0.0.1",
+    "TestingAssemblyVersion":  "0.0.2",
     "TestingDalamudApiLevel":  "13"
 }
 ]
