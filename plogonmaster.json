@@ -43,7 +43,6 @@
     "DownloadLinkTesting":  "https://sphene.online/dev/latest.zip",
     "TestingChangelog": "",
     "TestingAssemblyVersion":  "0.0.1",
-    "TestingDalamudApiLevel":  "13",
-    "IsHide":  true
+    "TestingDalamudApiLevel":  "13"
 }
 ]
