@@ -27,7 +27,7 @@
     "Name":  "ShrinkU",
     "InternalName":  "ShrinkU",
     "AssemblyVersion":  "0.0.1",
-    "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm.",
+    "Description":  "ShrinkU - Reduce your texture file sizes to save storage space.",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/ShrinkU",
     "Tags":  [
