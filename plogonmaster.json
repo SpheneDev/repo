@@ -25,7 +25,7 @@
         "Name":  "ShrinkU",
         "InternalName":  "ShrinkU",
         "AssemblyVersion":  "0.0.4",
-        "Description":  "ShrinkU - Reduce your texture file sizes to save storage space.",
+        "Description":  "Manage your Mods. Back them up. Restore them when needed.",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/SpheneDev/ShrinkU",
         "Tags":  [
