@@ -24,7 +24,7 @@
         "Author":  "SpheneDev",
         "Name":  "ShrinkU",
         "InternalName":  "ShrinkU",
-        "AssemblyVersion":  "0.0.4",
+        "AssemblyVersion":  "0.0.5",
         "Description":  "Manage your Mods. Back them up. Restore them when needed.",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/SpheneDev/ShrinkU",
