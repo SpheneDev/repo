@@ -24,23 +24,23 @@
         "Author":  "SpheneDev",
         "Name":  "ShrinkU",
         "InternalName":  "ShrinkU",
-        "AssemblyVersion":  "0.0.5",
+        "AssemblyVersion":  "0.0.6",
         "Description":  "Manage your Mods. Back them up. Restore them when needed.",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/SpheneDev/ShrinkU",
         "Tags":  [
                      "customization"
                  ],
-        "DalamudApiLevel":  13,
+        "DalamudApiLevel":  14,
         "LoadPriority":  0,
         "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/images/ShrinkU.png",
         "Punchline":  "Manage your Mods. Back them up. Restore them when needed.",
-        "DownloadLinkInstall":  "https://github.com/SpheneDev/ShrinkU/releases/download/v.0.0.4/latest.zip",
-        "DownloadLinkUpdate":  "https://github.com/SpheneDev/ShrinkU/releases/download/v.0.0.4/latest.zip",
+        "DownloadLinkInstall":  "https://github.com/SpheneDev/ShrinkU/releases/download/v.0.0.6/latest.zip",
+        "DownloadLinkUpdate":  "https://github.com/SpheneDev/ShrinkU/releases/download/v.0.0.6/latest.zip",
         "DownloadLinkTesting":  "https://sphene.online/dev/latest.zip",
         "TestingChangelog":  "",
         "TestingAssemblyVersion":  "0.0.3",
-        "TestingDalamudApiLevel":  "13"
+        "TestingDalamudApiLevel":  "14"
     },
     {
         "Author":  "SpheneDev \u0026 Keqing Yu",
