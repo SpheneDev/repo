@@ -10,7 +10,7 @@
         "Tags":  [
                      "customization"
                  ],
-        "DalamudApiLevel":  13,
+        "DalamudApiLevel":  14,
         "LoadPriority":  0,
         "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/images/Sphene.png",
         "Punchline":  "Become Endless. Return to Living Memory.",
@@ -18,7 +18,7 @@
         "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.8/latest.zip",
         "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.5.1/latest.zip",
         "TestingAssemblyVersion":  "1.1.5.1",
-        "TestingDalamudApiLevel":  "13"
+        "TestingDalamudApiLevel":  "14"
     },
     {
         "Author":  "SpheneDev",
