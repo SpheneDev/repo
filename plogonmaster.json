@@ -46,19 +46,19 @@
         "Author":  "SpheneDev \u0026 Keqing Yu",
         "Name":  "Venue Plus",
         "InternalName":  "VenuePlus",
-        "AssemblyVersion":  "0.0.4.0",
+        "AssemblyVersion":  "0.0.5.0",
         "Description":  "Easily manage your staff members, create VIP lists, and register your DJs for your event. Register your club and support your staff with this tool",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/SpheneDev/VenuePlus",
         "Tags":  [
                      "customization"
                  ],
-        "DalamudApiLevel":  13,
+        "DalamudApiLevel":  14,
         "LoadPriority":  0,
         "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/images/venueplus.png",
         "Punchline":  "Easily manage your staff members, create VIP lists, and register your DJs for your event. Register your club and support your staff with this tool",
-        "DownloadLinkInstall":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.4.0/latest.zip",
-        "DownloadLinkUpdate":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.4.0/latest.zip",
+        "DownloadLinkInstall":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.5.0/latest.zip",
+        "DownloadLinkUpdate":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.5.0/latest.zip",
         "TestingDalamudApiLevel":  "13"
     }
 ]
