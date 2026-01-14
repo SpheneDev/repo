@@ -16,9 +16,9 @@
         "Punchline":  "Become Endless. Return to Living Memory.",
         "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.10.3/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.10.3/latest.zip",
-        "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.10.2/latest.zip",
+        "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.10.4/latest.zip",
         "TestingChangelog":  "Note: Testing Build is not stable. Use at your own risk.(Added Features may only work on Testserver)",
-        "TestingAssemblyVersion":  "1.1.10.2",
+        "TestingAssemblyVersion":  "1.1.10.4",
         "TestingDalamudApiLevel":  "14"
     },
     {
