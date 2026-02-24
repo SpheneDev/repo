@@ -18,7 +18,7 @@
         "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.11.295/latest.zip",
         "DownloadLinkTesting":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.11.538/latest.zip",
         "TestingChangelog":  "Note: Testing Build is not stable. Use at your own risk.(Added Features may only work on Testserver)",
-        "TestingAssemblyVersion":  "1.1.11.538",
+        "TestingAssemblyVersion":  "1.1.10.538",
         "TestingDalamudApiLevel":  "14"
     },
     {
@@ -63,3 +63,4 @@
         "TestingDalamudApiLevel":  "13"
     }
 ]
+
