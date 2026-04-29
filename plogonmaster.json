@@ -44,6 +44,8 @@
         "TestingChangelog":  "",
         "TestingAssemblyVersion":  "0.0.3",
         "TestingDalamudApiLevel":  "14"
+        "IsHide": "true",
+        "IsTestingExclusive": "false"
     },
     {
         "Author":  "SpheneDev \u0026 Keqing Yu",
@@ -63,5 +65,7 @@
         "DownloadLinkInstall":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.6.4/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.6.4/latest.zip",
         "TestingDalamudApiLevel":  "13"
+        "IsHide": "true",
+        "IsTestingExclusive": "false"
     }
 ]
