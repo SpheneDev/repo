@@ -21,7 +21,7 @@
         "TestingAssemblyVersion":  "1.1.15.1",
         "TestingDalamudApiLevel":  "15"
         "IsHide": "true",
-        "IsTestingExclusive": "false",
+        "IsTestingExclusive": "false"
     },
     {
         "Author":  "SpheneDev",
