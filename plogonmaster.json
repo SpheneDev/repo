@@ -20,6 +20,8 @@
         "TestingChangelog":  "Note: Testing Build is not stable. Use at your own risk.(Added Features may only work on Testserver)",
         "TestingAssemblyVersion":  "1.1.15.1",
         "TestingDalamudApiLevel":  "15"
+        "IsHide": "true",
+        "IsTestingExclusive": "false",
     },
     {
         "Author":  "SpheneDev",
