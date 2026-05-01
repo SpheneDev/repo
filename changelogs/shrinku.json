@@ -1,0 +1,258 @@
+{
+    "changelogs": [
+        {
+            "version": "0.0.10",
+            "date": "2026-05-01",
+            "title": "7.5 Update",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed & Improved",
+                    "sub": [
+                        {
+                            "subcategory": "Performance",
+                            "items": [
+                                "Several performance improvements have been made."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "0.0.9",
+            "title": "Improve Startup and Cache System",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "We added caching to prevent unnecessary restarts and scans when the Backup and Penumbra folders remain unchanged.",
+                        "ShrinkU now only re-checks modified mods."
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "The Uninstalled category incorrectly displayed both a Restore and Install button; we have corrected it to show only the Install button.",
+                        "Fixed minor UI issues."
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "We significantly improved mod initialization and startup performance.",
+                        "Reduced hitching when opening the Main Window."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.7",
+            "title": "Small Bug Fix",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Mod list displayed incorrect mod names."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.6",
+            "title": "7.4 Update",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Updated",
+                    "sub": [
+                        "Update for 7.4"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.5",
+            "title": "Smoll Fix great impact :D",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": []
+                },
+                {
+                    "description": "Changed",
+                    "sub": []
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Penumbra Mod Setting’s “Open in ShrinkU” button caused transparent windows with extensive mod lists. We resolved this issue.",
+                        "Fixed button text alignment."
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": []
+                },
+                {
+                    "description": "Removed",
+                    "sub": []
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.4",
+            "title": "Performance Improvement, UI changes & New Backup Option",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "The mod version and author have been added to the mod tooltip.",
+                        "Statistics for backups showing how many PMPs are in the backup folder, as well as their total size (Settings window).",
+                        "You can now back up and reinstall every mod you want.",
+                        "You can reinstall deleted backed-up mods in Penumbra using ShrinkU.",
+                        "We added a button to the Penumbra mod settings that opens Shrinku and displays the selected mod.",
+                        "Right-clicking a mod in ShrinkU now allows you to exclude it from conversion.",
+                        "The Penumbra Mod folder, or the folder in which Shrinku saved the mod with a backup, can now be opened via the context menu of a mod."
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Some Minor UI changes"
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Correct display behavior of the mod-level checkbox - no checkbox for non-convertible mods.",
+                        "Robustness improvements and debug logging around backup and restore steps."
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "Backup, Conversion and Restore Logic.",
+                        "Much UI Improvements"
+                    ]
+                },
+                {
+                    "description": "Removed",
+                    "sub": [
+                        "Removed Zip backup for Textures. We rely on full Mod backup here because the size is not really significant greater. Also a full mod backup is safer.",
+                        "Removed some Sort Options"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.3",
+            "title": "Improved Mod handling",
+            "description": "This release refines workflow efficiency and adds more robust handling for mod data integrity.",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Updates show release notes automatically.",
+                        "Backup consistency improved across conversions, restorations."
+                    ]
+                },
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Version tracking and dedicated UI window added.",
+                        "Settings panel includes release notes button.",
+                        "Mod backup support via PMP archives.",
+                        "Full mod backups configurable option added.",
+                        "Communication between ShrinkU and Sphene or other Plugins that control it",
+                        "Automatic outdated backup removal enabled.",
+                        "Conversion UI supports persistent expand/collapse controls",
+                        "Backup version comparison with metadata extraction",
+                        "Indicator when “Penumbra used only” mode is active to explain why not all mods appear in lists."
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Mod-level checkbox displays correctly for all mods.",
+                        "Backup and restore now log errors."
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "Crisper header font for changelog window.",
+                        "Mod-level checkbox hidden for incompatible textures",
+                        "Persistent expansion state for conversion UI",
+                        "Automatic mode settings display improved clarity.",
+                        "Outdated backups and session folders removed automatically.",
+                        "Empty backup directories removed after cleanup.",
+                        "Faster backups with intelligent version comparisons"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.2",
+            "title": "Improved Mod handling",
+            "description": "This release refines workflow efficiency and adds more robust handling for mod data integrity.",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Interactive tag chips replace comma input.",
+                        "Changes are now saved instantly.",
+                        "Colored table layout with size indicators, totals footer.",
+                        "Backup service reports success reliably.",
+                        "Empty mod folders automatically cleaned after operations."
+                    ]
+                },
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Excluded tag changes trigger immediate notifications.",
+                        "UI columns show uncompressed and compressed sizes.",
+                        "Backup entry file restoration accuracy improved."
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "Automatic tag tracking reduces manual input.",
+                        "Mod automatically restored on conversion cancel.",
+                        "UI data consistently reflects current progress",
+                        "Faster file lookups with relative paths."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.1",
+            "title": "Initital Commit",
+            "description": "ShrinkU started here with basic functionality for converting mods and creating backups .",
+            "isPrerelease": false,
+            "changes": [],
+            "structure_version": 1
+        }
+    ]
+}

@@ -1,0 +1,317 @@
+{
+    "changelogs": [
+        {
+            "version": "0.0.6.4",
+            "title": "[26-02-12] Better Schedule Planer",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Event planning window allows adding events and shifts for members and DJs"
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Job and name must be selected when assigning shifts",
+                        "Buttons in the left panel appear after data loads"
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Edit/delete buttons unavailable for Unassigned role jobs panel",
+                        "Table headings are centered for improved readability."
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "Schedule tab displays directly when assigning a shift to a user.",
+                        "Staff List selection and shift details set directly within Event Schedule window.",
+                        "Time and date display uses system settings, recognizing 12/24-hour formats and date settings."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.6.2",
+            "title": "[26-02-06] Some Improvements",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Switch between ST and LT time in main window.",
+                        "ST: shows shift in server time",
+                        "LT: Shows converted shift time by PC timezone.",
+                        "Member Shifts and Dj Times public JSON links added"
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Server time accurately reflects the application schedule.",
+                        "VIP list loading errors when opening large contact groups"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.6.1",
+            "title": "[26-02-06] Better Shifts, New permissions",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Shift Tab displays upcoming staff shifts for future reference",
+                        "Shift Tab displays staff shifts, including coworker schedules",
+                        "Action button creates time slots directly from staff/DJ lists.",
+                        "Delete Staff Members and Edit VIP Homeworld functionalities added"
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Hotbar game icon list displays correctly categorized items"
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Homeworld defaults to Unknown when manually adding VIPs.",
+                        "Staff member indicator displays correctly after manual addition"
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "Columns of actions adjusted based on available buttons.",
+                        "UI components reflect new permissions, improving layout consistency.",
+                        "Roles display new icons."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.6.0",
+            "title": "[26-02-04] Huge Update, Many Improvements",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Manually add VIPs and Staffmembers",
+                        "VIPs can now be edited manually.",
+                        "Add staff without plugin, update on registration.",
+                        "Enter your birthday in account information.",
+                        "Adds birthday lists from member account information.",
+                        "Reset password with recovery key. (Needs to be saved.)",
+                        "Generate recovery key in Account Information window.",
+                        "Schedule with calendar and shift plan.",
+                        "DJ times (inside Schedule Plan).",
+                        "Staff member online status when logged into V+",
+                        "Display server and local time.",
+                        "Account delete function",
+                        "Sole owners’ venues deleted without transfer",
+                        "Transfer venue ownership to another member",
+                        "Notification of server shutdown for maintenance.",
+                        "Tooltip for quick reference of role permissions"
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "VIPs not visible if not logged in.",
+                        "List flickering with more than 16 entries.",
+                        "Vip nameplate indicator not reliably removed on plugin deactivation.",
+                        "Login errors occurred during user authentication."
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Multiple roles for staff members merged.",
+                        "Permission needed to view venue settings.",
+                        "Roles in Staff list are more intuitive.",
+                        "UIDs of other members no longer visible to everyone.",
+                        "Venue Plus logo used instead of venue logo if not set.",
+                        "Ctrl confirms venue deletion, same for account deletion."
+                    ]
+                },
+                {
+                    "description": "Removed",
+                    "sub": [
+                        "Login failed notifications were removed."
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "Lists have pagination.",
+                        "Server status shows if server is in maintenance mode.",
+                        "No login form if not logged in with a character.",
+                        "Character login detection in FFXIV main menu.",
+                        "Notification displayed when new role not saved."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.5.0",
+            "title": "[26-01-06] Update for 7.4",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Whisper helper window incorrectly expands to the screen edge."
+                    ]
+                },
+                {
+                    "description": "Added",
+                    "sub": [
+                        "New Macro Hotbar Feature (still in Progress)"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.4.0",
+            "title": "[25-12-09] Notification System, New Nameplate Options",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Notifications have been Added (can be set individualiy in Settings)"
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Context Menu entries only shown when Target is a Player",
+                        "The last venue selected should be the venue selected after logging in."
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Context Menu Items Prefix now is a *V*"
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "VIP Nameplate can now display custom and additional preset symbols. You can also choose whether to display them before or after the name, or both. In addition, you can now display only text instead of the symbol, or both together.",
+                        "Ownership rights have been further improved"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.3.0",
+            "title": "[25-12-08] New Ranking System for Roles",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "A rank system for rights has been added, with rank 0 being the lowest and rank 10 being the highest (owner). A lower rank cannot edit or change the rank of a higher rank."
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "There can now be more than one owner. The last owner remaining cannot be deleted."
+                    ]
+                },
+                {
+                    "description": "UI Changes",
+                    "sub": [
+                        "Refactored Whisper Helper Window Layout"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.2.0",
+            "title": "[25-12-05] QOL: Whisper Helper",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Whisper helper: With this QOL tool, you can whisper messages to players you have targeted. (Presets can be made and Loaded)",
+                        "QOL button and QOL list added"
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Registration form not closed after successful registration."
+                    ]
+                },
+                {
+                    "description": "UI Changes",
+                    "sub": [
+                        "Buttons moved under Venue List button in main window.",
+                        "Server status moved down in left panel"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "0.0.1.0",
+            "title": "[25-12-04] New VIP, Venue List Popout & Changelog Window ",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "DJs can be added or deleted.",
+                        "VIP list window for compact viewing.",
+                        "Venue List window for quick venue switching",
+                        "New changelog window displays current and older logs."
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Channel name required when adding DJs.",
+                        "When adding jobs, you can now assign the job via a drop-down menu when creating it."
+                    ]
+                },
+                {
+                    "description": "UI Changes",
+                    "sub": [
+                        "Buttons on tabs align to the right.",
+                        "Better permission organization, improved layout in jobs panel",
+                        "Text alignment improved; font sizes adjusted.",
+                        "Tabs scroll, right panel remains fixed."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        }
+    ]
+}

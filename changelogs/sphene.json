@@ -1,0 +1,1501 @@
+{
+    "changelogs": [
+        {
+            "version": "1.1.15.2",
+            "date": "2026-05-01",
+            "title": "7.5 Update",
+            "description": "Support for Dalamud API 15 and FFXIV 7.5 Update.",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Fixed & Improved",
+                    "sub": [
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "Players should now revert to their vanilla appearance when disabling the plugin."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.15.0",
+            "date": "2026-04-27",
+            "title": "",
+            "description": "!!IMPORTANT!! The Sphene icon may be a little off after this update, so adjust it yourself again. :) You now have to hold the icon for a moment before you can start dragging it, but you will see an indicator for this. \n\n                                                                                                              ",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        {
+                            "subcategory": "Theme",
+                            "items": [
+                                "Several elements missing from the theme editor were added there.",
+                                "Sphene Icon can now be customized in Theme Settings",
+                                "The Sphene icon and notification sounds can be customized within the settings theme area."
+                            ]
+                        },
+                        {
+                            "subcategory": "Notifications",
+                            "items": [
+                                "Sphene Icon displays visual feedback for incoming Mod Transfer or pair requests",
+                                "Sphene can now play sound for various notifications (still being refined)."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "After a disconnect, all players should return to their original state.",
+                                "Fixed a bug where the Pairs list was repeatedly (up to 6 times) loaded during a Connect operation, consistently yielding the same result. This also resulted in multiple character data pushes and acknowledge requests and also increased sync errors.",
+                                "Fixed Sync errors."
+                            ]
+                        },
+                        {
+                            "subcategory": "UI",
+                            "items": [
+                                "Area Syncshells no longer remain on the list after leaving them until sphene reconnects.",
+                                "User display logic improved for reliable list placement, ensuring correct statuses without false indications."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        {
+                            "subcategory": "UI",
+                            "items": [
+                                "Revised Playerlist logic. Improved it to respond much faster to status changes.",
+                                "Manual disconnect now displays text in the Control Panel informing the user they must manually log back in after a plugin restart.",
+                                "The Sphene icon provides visual feedback before dragging. This indicates that it's movable (when unlocked). This prevents false drag recognition.",
+                                "Sphene Icon now hides when in Gpose."
+                            ]
+                        },
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "Penumbra Mod collections are saved separately to avoid old collections on restart, offering better data persistence."
+                            ]
+                        },
+                        {
+                            "subcategory": "Setup",
+                            "items": [
+                                "As soon as they set up Sphene, Linux/Wine users will now see a message regarding WebSocket connections, along with the corresponding option they need to enable."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": []
+                },
+                {
+                    "description": "Removed",
+                    "sub": []
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.14.5",
+            "date": "2026-04-26",
+            "title": "",
+            "description": "Sphene Icon could be alittle bit off after this update just adjust it by urself again :).",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        {
+                            "subcategory": "Theme",
+                            "items": [
+                                "Several elements missing from the theme editor were added there.",
+                                "Sphene Icon can now be customized in Theme Settings"
+                            ]
+                        },
+                        {
+                            "subcategory": "Notifications",
+                            "items": [
+                                "Sphene Icon displays visual feedback for incoming Mod Transfer or pair requests"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "Hopefully fixed the Reload bug."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        {
+                            "subcategory": "UI",
+                            "items": [
+                                "Revised Playerlist logic. Improved it to respond much faster to status changes."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.14.4",
+            "date": "2026-04-21",
+            "title": "Another Syncshell Fix",
+            "description": "There was another bug that came with newest area syncshell updates that caused directly paired users to went offline when leaving an area syncshell instead of leaving them visible because they where direct pairs.",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Syncshells",
+                            "items": [
+                                "Keep directly paired users online when leaving Area Syncshell groups."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.14.3",
+            "date": "2026-04-21",
+            "title": "",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Incoginito Mode",
+                            "items": [
+                                "Syncshell user pausing was skipped if not directly paired."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.14.2",
+            "date": "2026-04-21",
+            "title": "",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Incognito Mode",
+                            "items": [
+                                "Incognito Mode had an issue with turning others back to vanilla."
+                            ]
+                        },
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "BypassEmote caused an error breaking the Acknowledge System"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.14.1",
+            "date": "2026-04-20",
+            "title": "",
+            "description": "!!IMPORTANT!! With this update, every area syncshell must be reconfigured due to changes in how they work and are broadcasted to users. Old SyncShells will not be broadcasting to the new system. However, it should now be much easier to configure your area SyncShells for your properties.",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Area Syncshell",
+                            "items": [
+                                "Fixed Renaming Bug causing UI error."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.14.0",
+            "date": "2026-04-20",
+            "title": "",
+            "description": "!!IMPORTANT!! With this update, every area syncshell must be reconfigured due to changes in how they work and are broadcasted to users. Old SyncShells will not be broadcasting to the new system. However, it should now be much easier to configure your area SyncShells for your properties.",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Connection",
+                            "items": [
+                                "After server restart or connection loss, reconnecting caused sync errors until manual reconnection."
+                            ]
+                        },
+                        {
+                            "subcategory": "Minor",
+                            "items": [
+                                "Fixed several errors related to Area Syncshells and unpaired pairs, which previously caused synchronization issues.",
+                                "Fixed bugs affecting acknowledgement system and area syncshells, they should now function correctly."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        {
+                            "subcategory": "Area-Syncshell",
+                            "items": [
+                                "Overhauled housing detection and mapping systems with improved ownership checks, interior floor support, enhanced location matching, and refined area-bound syncshell behavior.",
+                                "handled locked area-bound syncshells more effectively"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        {
+                            "subcategory": "UI",
+                            "items": [
+                                "Remove experimental label from characterlegacy.shpk filter",
+                                "The Area binding UI was completely redesigned for simplicity and clarity.",
+                                "The Syncshell Admin Panel received a minor update and style adjustment.",
+                                "The Control Panel now displays how long a connection has been lost and suggests it might be a connection issue or server downtime due to an potential update or maintenance."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.13.131",
+            "date": "2026-04-07",
+            "title": "",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "Missing files trigger a reupload request from their pair source to restore the download."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": []
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        {
+                            "subcategory": "UI",
+                            "items": [
+                                "The Areabound Syncshell button is now less prominent when Syncshell isn’t present."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.13.122",
+            "date": "2026-04-05",
+            "title": "",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        {
+                            "subcategory": "Acknowledge-System",
+                            "items": [
+                                "Additional states were added to the Acknowledge System to more precisely indicate synchronization failures.",
+                                "When a pair becomes invisible, the acknowledge status is reset to ensure a clean request upon reappearing.",
+                                "These changes should improve the system’s response to synchronization errors and attempt to resolve them."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "Delayed character data purge after one minute prevents stale offline data. Plugin startup clears all cached data for a fresh state.",
+                                "Reloading pairs refreshes remote character data and automatically retries failed sync attempts.",
+                                "Network connection loss and reconnect caused an empty user list.",
+                                "Minions and pets sometimes reloaded constantly, even when unnecessary. This was due to sound files that repeatedly started for the minions."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        {
+                            "subcategory": "UI",
+                            "items": [
+                                "Redesign of the debug area. Logging adjusted to enable report creation for bug reports."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.13.1",
+            "date": "2026-03-31",
+            "title": "Area Syncshell and Pairing Fixes",
+            "description": "Area Syncshell reliability improved and pairing flow enhanced.",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Area-Syncshell",
+                            "items": [
+                                "New users missed area syncshell notifications while present, requiring them to re-enter the area to receive them."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        {
+                            "subcategory": "Pairing",
+                            "items": [
+                                "Adding another user displays an indicator in the Control Panel, leading to a pairing request window to view, accept or decline the addition."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        {
+                            "subcategory": "UI",
+                            "items": [
+                                "The Area Bound Syncshell Indicator Button remains visible and is only activated with an available syncshell nearby."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.13",
+            "date": "2026-03-31",
+            "title": "CDN Upgrade & Sync Improvements",
+            "description": "Faster downloads via CDN, improved sync reliability, and major ShrinkU performance upgrades.",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "We’ve implemented a CDN instead of the old fileserver, significantly increasing download speed and ensuring a fallback to the old system in case of error.",
+                                "Filter for characterlegacy.sphk causing shadow bugs."
+                            ]
+                        },
+                        {
+                            "subcategory": "Connection",
+                            "items": [
+                                "10 second reconnection grace period. Connection issues display orange status indicators. UI remains consistent."
+                            ]
+                        },
+                        {
+                            "subcategory": "ShrinkU",
+                            "items": [
+                                "The data is now stored in an SQLite database instead of in JSON format to improve performance. The previous data will be automatically migrated.",
+                                "Backups can now be deleted easily."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Incognito",
+                            "items": [
+                                "SyncShells correctly resume after Incognito mode ends. Pairs revert to Vanilla Look when Incognito mode activates."
+                            ]
+                        },
+                        {
+                            "subcategory": "ShrinkU",
+                            "items": [
+                                "Penumbra Mod Folders now correctly getting synced at Startup.",
+                                "Some minor performance fixes."
+                            ]
+                        },
+                        {
+                            "subcategory": "Mod Sharing",
+                            "items": [
+                                "The mod sharing list is now being updated correctly."
+                            ]
+                        },
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "Reconnect triggers correct wipe of Temporary Collections."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "Redraws have been shortened and optimized, leading to a faster, more reliable sync process.",
+                                "Mod replacements impacting appearance are marked “active” during data transmission for recipient verification after apply."
+                            ]
+                        },
+                        {
+                            "subcategory": "ShrinkU",
+                            "items": [
+                                "Reduced mod rescans and enhanced version/priority handling within the system.",
+                                "Mods can now be selected by highlighting them instead of using checkboxes."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.12.275",
+            "date": "2026-03-23",
+            "title": "",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        {
+                            "subcategory": "ShrinkU",
+                            "items": [
+                                "Backups can now be deleted easily."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "Leaving a SyncShell now correctly reverts others to Vanilla when unpaired."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "Characters now load data from the server upon reload, replacing local data.",
+                                "Players are redrawn upon initial visibility to prevent distorted limbs, even with redraws disabled.",
+                                "Minions and pets should redraw even when global redraws are disabled.",
+                                "Redraw is forced when a player transfers a mod for an emote and executed it before local application.",
+                                "Mod replacements impacting appearance are marked “active” during data transmission for recipient verification after apply."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        {
+                            "subcategory": "ShrinkU",
+                            "items": [
+                                "Mods can now be selected by highlighting them instead of using checkboxes."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
+            "version": "1.1.12.221",
+            "title": "[26-03-22] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Sync:",
+                        "Filter for characterlegacy.sphk causing shadow bugs."
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Sync:",
+                        "Reconnect triggers correct wipe of Temporary Collections."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.12.201",
+            "title": "[26-03-22] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "ShrinkU:",
+                        "The data is now stored in an SQLite database instead of in JSON format to improve performance. The previous data will be automatically migrated."
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "ShrinkU:",
+                        "Improved detection of Penumbra changes to reflect it in the UI.",
+                        "Mod Sharing:",
+                        "The mod sharing list is now being updated correctly."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.12.177",
+            "title": "[26-03-20] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Fixes",
+                    "sub": [
+                        "Connection & Sync:",
+                        "Pair reload now correctly triggers a Redraw if they where disabled globaly.",
+                        "Sync Bug between directly Paired users when in Syncshells.",
+                        "Area Syncshells now correctly get whiped when disconnected.",
+                        "Small fixes to the startup process.",
+                        "ShrinkU:",
+                        "Penumbra Mod Folders now correctly getting synced at Startup.",
+                        "Some minor performance fixes."
+                    ]
+                },
+                {
+                    "description": "Improves",
+                    "sub": [
+                        "ShrinkU - Performance:",
+                        "Rescans of Mods have been reduced.",
+                        "Mod version and Mod Priority handling.",
+                        "Preparations for future Penumbra updates."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.12.138",
+            "title": "[26-03-19] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Fixes",
+                    "sub": [
+                        "Incognito:",
+                        "SyncShells now correctly get unpaused after Incognito mode has been disabled.",
+                        "Pairs now correctly change back to Vanilla Look when activating Incognito Mode.",
+                        "ShrinkU:",
+                        "Temporary files now correctly interpreted as non-mod files."
+                    ]
+                },
+                {
+                    "description": "Changes",
+                    "sub": [
+                        "UI - Changelog Window:",
+                        "Change logs now organized with sub-categories."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.12.119",
+            "title": "[26-03-18] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Emote Sync:",
+                        "Initial Emote Sync Implementation.",
+                        "You can now sync Emotes with others.",
+                        "You can choose whether to sync only with the other user locally or to follow a leader's sync. You can also choose whether the leader should sync other pairs you've selected locally for you.",
+                        "Disble Redraws ( Experimental):",
+                        "This feature is currently causing some issues, but we're working on it. So if you're having problems, it's best to disable it.",
+                        "When enabled, characters are not redrawn every time. However, reloading a character via the pair list still triggers redraw."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.12.71",
+            "title": "[26-03-17] ",
+            "description": "BypassEmote IPC Update",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Testbuild Update Notification"
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "BypassEmote Update needed some changes to work again."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.12.45",
+            "title": "[26-03-16] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Recent changes have created an error message at Simple Heels."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.12.3",
+            "title": "[26-03-17] ShrinkU Temp File Fix",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "ShrinkU Temporary files now correctly interpreted as non-mod files.,\n"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.12.1",
+            "title": "[26-03-16] Error Fix Simple Heels",
+            "description": "Error fix for Simple Heels Error Message",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Recent changes have created an error message at Simple Heels."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.12.1",
+            "title": "[26-03-16] Error Fix Simple Heels",
+            "description": "Error fix for Simple Heels Error Message",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Recent changes have created an error message at Simple Heels."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.12",
+            "title": "[26-03-15] Performance Fixes & Sync in combat Settings",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "New settings after update: after an update, a new window will show and explain all the new options, allowing you to change them directly to your liking."
+                    ]
+                },
+                {
+                    "description": "Added: Sync settings",
+                    "sub": [
+                        "A new tab containing several new settings for synchronization between pairs.",
+                        "You can now change the synchronization behavior in battles and duties here."
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Settings UI has been Reworked to look cleaner.",
+                        "ShrinkU update to v.0.0.9"
+                    ]
+                },
+                {
+                    "description": "Changed: ShrinkU",
+                    "sub": [
+                        "ShrinkU now Starts after Penumbra initialized when in FFXIV Main Menu.",
+                        "Added a Cache for better performance."
+                    ]
+                },
+                {
+                    "description": "UI Changes & Fixes",
+                    "sub": [
+                        "Client Version of pairs are now shown in the Pair Tooltip. ( to see if you are both on the same version)",
+                        "In the “Character Data Analysis” window, under the “Transient Files” tab, Pets/Minions & Mounts are now also displayed.",
+                        "When a pair goes online, only one notification is now displayed instead of a barrage of notifications.",
+                        "Settings Window have been repolished a little bit.",
+                        "And some other UI fixes"
+                    ]
+                },
+                {
+                    "description": "Improved & Fixed",
+                    "sub": [
+                        "BypassEmote latency improved.",
+                        "Character data files are now uploaded onto the Sphene server even without a visible pair.",
+                        "The Acknowledgment System has been further improved",
+                        "File Upload progress should now be much better.",
+                        "ShrinkU Startup performance."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.11.1078",
+            "title": "[26-03-14] ",
+            "description": "Changes since 1.1.11.1000",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "New settings after update: after an update, a new window will show and explain all the new options, allowing you to change them directly to your liking."
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Settings UI has been Reworked to look cleaner.",
+                        "ShrinkU update to v.0.0.9"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.11.1000",
+            "title": "[26-03-13] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added: Sync settings",
+                    "sub": [
+                        "A new tab containing several new settings for synchronization between pairs.",
+                        "You can now change the synchronization behavior in battles and duties here."
+                    ]
+                },
+                {
+                    "description": "Changed: ShrinkU",
+                    "sub": [
+                        "ShrinkU now Initializes after Penumbra initialized when in FFXIV Main Menu.",
+                        "This should prevent the Game from Lagging after Login.",
+                        "Also Added a Cache for better performance."
+                    ]
+                },
+                {
+                    "description": "UI Changes",
+                    "sub": [
+                        "Client Version of pairs are now shown in the Pair Tooltip. ( to see if you are both on the same version)",
+                        "In the “Character Data Analysis” window, under the “Transient Files” tab, Pets/Minions & Mounts are now also displayed.",
+                        "When a pair goes online, only one notification is now displayed instead of a barrage of notifications.",
+                        "Settings Window have been repolished a little bit.",
+                        "And some other UI fixes"
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "BypassEmote latency improved.",
+                        "Character data files are now uploaded onto the Sphene server even without a visible pair.",
+                        "The Acknowledgment System has been further improved"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.11.295",
+            "title": "[26-02-14] Added BypassEmote Plugin by Aspher0",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Compatibility with BypassEmote plugin (by Aspher0).",
+                        "Function to install plugins by click. (including adding the appropriate repository in Dalamud)",
+                        "Function to enable and disable plugins used by Sphene directly in the list."
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Bug with selecting mod download Folder.",
+                        "Hopefull fix for mod Aplication on yourself from others",
+                        "Fixed an UI error"
+                    ]
+                },
+                {
+                    "description": "UI changes",
+                    "sub": [
+                        "The list of compatible plugins has been revised and can be found in the Home tab in the Settings.",
+                        "The control panel has been made a little sleeker and tidier.",
+                        "Some UI text changes",
+                        "Acknowledgments are no longer displayed in the control panel in dungeons because character data synchronization is not prioritized during combat."
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "The synchronisation behaviour should now be better when applying mods in Penumbra and Glamourer."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.11.280",
+            "title": "[26-02-06] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Fixed UI error"
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "Synchronization behavior now works better with Penumbra and Glamourer mods."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.11.262",
+            "title": "[26-02-01] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Hopefull fix for mod Aplication on yourself from others"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.11.259",
+            "title": "[26-01-31] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Compatibility with BypassEmote plugin.",
+                        "Function to install plugins by click. (including adding the appropriate repository in Dalamud)",
+                        "Function to enable and disable plugins used by Sphene directly in the list."
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Bug with selecting mod download Folder.",
+                        "Minion Sounds should work again now"
+                    ]
+                },
+                {
+                    "description": "UI changes",
+                    "sub": [
+                        "The list of compatible plugins has been revised and can be found in the Home tab in the Settings.",
+                        "The control panel has been made a little sleeker and tidier.",
+                        "Some UI text changes"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.11.21",
+            "title": "[26-01-24] Honorific Fix",
+            "description": "There was an error with reapply Honorific titles after zone change, this schould hopefully be fixed now :).",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Possible fix for Honorific titles no longer being displayed after changing zones."
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Changlog Panel UI got a little Refresh"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.11.4",
+            "title": "[26-01-23] Sphene Mod Share",
+            "description": "With this release, we’re introducing our new Mod Sharing feature.",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Sphene Mod Share",
+                    "sub": [
+                        "Added a new Mod Sharing feature for Penumbra mods",
+                        "Easily share mods with paired friends directly from the Sphene Control Panel",
+                        "The new option can be found in Control Panel -> Navigation -> Open Mod Sharing",
+                        "Mods are uploaded to the Sphene service and can be accepted or declined by the recipient",
+                        "Maximum upload size per mod: 1 GB",
+                        "Does not work in Syncshells.",
+                        "Please only share mods with people you trust"
+                    ]
+                },
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Mod Sharing function has been added to share mods with your directly paired friends easily.",
+                        "Gpose Tracking: Added new Status icon that shows if a character is in GPose mode.",
+                        "Added an option to disable VFX in Duties for individual pairs",
+                        "Information about the Acknowledge system in Duties have been added to the tooltip in Pairs list."
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Notification Spam when character Data loded."
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "Acknowledgment System for Character Data more stable now.",
+                        "Improved ShrinkU startup behavior",
+                        "Character Redraw logic after mod applied."
+                    ]
+                },
+                {
+                    "description": "UI changes",
+                    "sub": [
+                        "Area Syncshell Button Height was off"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.10.35",
+            "title": "[26-01-16] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Added more Redownload options for Mods."
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "Improved ShrinkU startup behavior"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.10.24",
+            "title": "[26-01-15] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Moved Duty Information for Acknowledge System from toast and chat Notification to tooltip in User list."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.10.22",
+            "title": "[26-01-15] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Added an option to disable VFX in Duties for individual pairs"
+                    ]
+                },
+                {
+                    "description": "UI changes",
+                    "sub": [
+                        "Area Syncshell Button Height was off",
+                        "Some UI Fixes in Mod Share Panel"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.10.13",
+            "title": "[26-01-15] ",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "Acknowledgment System for Character Data more stable now.",
+                        "Acknowledgment for pending Mod downloads  should be better now."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.10.6",
+            "title": "[26-01-14]",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "An option to re-download mods that have already been downloaded has been added to the mod download history tab.",
+                        "A Received History tab has been added to The Mod History."
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "If there are any problems uploading mod packages, this should now be displayed and it should be possible to upload the mod again.",
+                        "Changelog has not been shown in Testbuilds."
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "Testbuild Changelogs will be shown in different color"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.10.5",
+            "title": "[26-01-14]",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Notification Spam when character Data loded."
+                    ]
+                },
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Added the option to enable or disable mod receives in Mod Sharing Panel."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.10.4",
+            "title": "[26-01-14]",
+            "description": "",
+            "isPrerelease": true,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Gpose Tracking: Added new Status icon that shows if a character is in GPose mode.",
+                        "Mod Sharing function has been added to share mods with your directly paired friends easily."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.10.3",
+            "title": "[26-01-06] Small Bug Fixes, ShrinkU Update",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "some small Bug Fixes"
+                    ]
+                },
+                {
+                    "description": "ShrinkU",
+                    "sub": [
+                        "Update to v.0.0.7",
+                        "bug fix for the mod list showing the wrong mod names in some cases."
+                    ]
+                },
+                {
+                    "description": "UI Changes",
+                    "sub": [
+                        "Update Hint in Control Panel was cut off"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.10",
+            "title": "[25-12-21] Moodles API Update",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Updated",
+                    "sub": [
+                        "Moodles API to v4 Update"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.9",
+            "title": "[25-12-20] Brio v3 Update",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Support for new Brio update."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.8",
+            "title": "[25-12-19] 7.4 Update",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Updated",
+                    "sub": [
+                        "7.4 Update",
+                        "ShrinkU Update to v 0.0.6"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.7",
+            "title": "[25-11-28] Fixes in Mcdf file handling, update ShrinkU  to v.0.0.5",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Sphene could not reload the .mcdf files that had been exported from Sphene."
+                    ]
+                },
+                {
+                    "description": "ShrinkU",
+                    "sub": [
+                        "Update to v.0.0.5",
+                        "Fixed an error where ShrinkU caused Transparent Windows when opened from Penumbra Mod Settings Button."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.6",
+            "title": "[25-11-26] Backups, Conversions and Restores now Fully handled by ShrinkU",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "You can now open ShrinkU with one click in the Conversion Popup.",
+                        "A new button has been added to the Penumbra mod settings that opens Shrinku and shows the selected mod for management.",
+                        "You can now choose to exclude mods from conversion. Excluded mods will not be converted during manual or automatic conversion.",
+                        "You can exclude these mods from conversion inside the conversion window."
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "An error has been fixed that prevented Syncshell users from seeing each other."
+                    ]
+                },
+                {
+                    "description": "Removed",
+                    "sub": [
+                        "The General Theme Editor has been removed from the Settings menu. The Control Panel Theme Editor is still there.",
+                        "The Zip backup for textures has been removed. We rely on a full mod backup here because the size difference is not significant. A full mod backup is also safer."
+                    ]
+                },
+                {
+                    "description": "ShrinkU",
+                    "sub": [
+                        "Updated ShrinkU to version 0.0.4"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.5",
+            "title": "[25-11-16] Theme Editor & Some Fixes",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Theme Editor",
+                    "sub": [
+                        "All buttons in the control panel can be customized in terms of color, height, and width. The border can also be customized.",
+                        "They can be selected via Dropdown or Button Picker",
+                        "Button Picker: With the Button Picker, you can select the button you want to edit directly in the control panel.",
+                        "Themes can now be Deleted",
+                        "While in the Theme Editor, the Control Panel is automatically displayed on the right and moves with the Settings window.",
+                        "Preview for the update hint and transmission bars are now automatically displayed in the control panel during editing."
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Conversion Popup appeared Randomly when Control Panel was open and Automatic Conversion enabled",
+                        "When auto conversion was enabled and more than one conversion took place character was redrawn after every conversion. Now redraw triggers after last conversion.",
+                        "Some Minor stability Fixes"
+                    ]
+                },
+                {
+                    "description": "Refactored",
+                    "sub": [
+                        "The entire Sphene Control Panel Theme Editor area has been redesigned and expanded with additional options. Unused options have been removed."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.4",
+            "title": "[25-11-12] More Visibility Fixes, Reduce Information Logs",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Another Improvement for visibility handling after zone transitions."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.3",
+            "title": "[25-11-11] Visibility Check Fix",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Fixed an issue where visibility wasn’t properly updated after changing zones."
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.2",
+            "title": "[25-11-11] Patch 7.38 Update, Improvements & Fixes",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        "Visibility Gate: Hides players during cutscenes or while changing areas. This was added to prevent issues when both players aren’t actually visible to each other."
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        "New Icon for Texture Conversion Button",
+                        "The Sphene Default Theme is now a little tidier and cleaner."
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        "Ownership verifications for area bound Syncshell Locations were not loaded reliably at startup.",
+                        "Minimum width and height of the Sphene Control Panel were incorrectly disabled.",
+                        "Prevent login/logout events during area transitions"
+                    ]
+                },
+                {
+                    "description": "Improved",
+                    "sub": [
+                        "Some UI Layout Fixes across the Plugin"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        },
+        {
+            "version": "1.1.1",
+            "title": "[25-11-09] ShrinkU, a new way to shrink your Textures and New Changelog Welcome Window",
+            "description": "With this update, we are implementing our new *ShrinkU* plugin into the Sphene Client. With ShrinkU, you can now reduce the size of your Penumbra Mod textures even more reliably and also restore them using backups.",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Integrated ShrinkU Plugin into Sphene",
+                    "sub": [
+                        "ShrinkU now handles the Texture Conversion and backup logic.",
+                        "Texture backups are created before conversion and stored in zip archives with all metadata and the folder structure of the mod.",
+                        "ShrinkU comes with own UI where mods can be converted and restored (can be opened with the Sphene Icon right-click context menu.",
+                        "You can set if ShrinkU does generate complete mod backup (.pmp) before conversion of Textures"
+                    ]
+                },
+                {
+                    "description": "Automatic Conversion Mode",
+                    "sub": [
+                        "With the implementation of ShrinkU, automatic conversion mode was added to Sphene.",
+                        "Automatic mode can be activated in the one-click conversion pop-up.",
+                        "In automatic mode, textures used by Penumbra and Glamourer that can be converted are automatically backed up and converted.",
+                        "When a conversion is taking place in the background, a spinning indicator is visible in the Sphene Control Panel.",
+                        "When Full mod backup is enabled, the Conversion will backup the Whole Mod into an Penumbra Mod Package so it can be fully restored the state of the actual Mod later."
+                    ]
+                },
+                {
+                    "description": "New Restore Feature",
+                    "sub": [
+                        "When prefer PMP restore enabled the restore progress will use a Penumbra Mod Package backup if available.",
+                        "After a Penumbra Mod Package restore progress the old backups will be deleted."
+                    ]
+                },
+                {
+                    "description": "Improvements",
+                    "sub": [
+                        "Sphene Icon can now be Locked to prevent accidentaly moving the Icon.",
+                        "Removed outdated cleanup logic that could cause unexpected behavior with backups.",
+                        "Moved the Discord button to the top right Header area.",
+                        "Pairs now only exchange data when they can see each other mutualy (this was added due to the “character display range” option that has been Added with Patch 7.3 , which allow one character to see another without the other player being able to see them)."
+                    ]
+                },
+                {
+                    "description": "Hotfix 1",
+                    "sub": [
+                        "Sphene Conversion Progress Popup now closes automaticly after manual conversion"
+                    ]
+                }
+            ],
+            "structure_version": 1
+        }
+    ]
+}
