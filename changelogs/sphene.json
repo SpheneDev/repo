@@ -97,10 +97,6 @@
                 {
                     "description": "Changed",
                     "sub": []
-                },
-                {
-                    "description": "Removed",
-                    "sub": []
                 }
             ],
             "structure_version": 2
