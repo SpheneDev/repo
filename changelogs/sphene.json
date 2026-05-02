@@ -93,10 +93,6 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "description": "Changed",
-                    "sub": []
                 }
             ],
             "structure_version": 2
@@ -312,10 +308,6 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "description": "Improved",
-                    "sub": []
                 },
                 {
                     "description": "Changed",
