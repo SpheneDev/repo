@@ -42,7 +42,8 @@
         "DownloadLinkTesting":  "https://sphene.online/dev/latest.zip",
         "TestingChangelog":  "",
         "TestingAssemblyVersion":  "0.0.3",
-        "TestingDalamudApiLevel":  "14"
+        "TestingDalamudApiLevel":  "14",
+        "IsHide":  "true"
     },
     {
         "Author":  "SpheneDev \u0026 Keq.Art",
@@ -61,6 +62,7 @@
         "Punchline":  "Easily manage your staff members, create VIP lists, and register your DJs for your event. Register your club and support your staff with this tool",
         "DownloadLinkInstall":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.6.4/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.6.4/latest.zip",
-        "TestingDalamudApiLevel":  "13"
+        "TestingDalamudApiLevel":  "14",
+        "IsHide":  "true"
     }
 ]
