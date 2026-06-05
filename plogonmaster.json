@@ -49,20 +49,20 @@
         "Author":  "SpheneDev \u0026 Keq.Art",
         "Name":  "Venue Plus",
         "InternalName":  "VenuePlus",
-        "AssemblyVersion":  "0.0.6.4",
+        "AssemblyVersion":  "0.0.6.5",
         "Description":  "Easily manage your staff members, create VIP lists, and register your DJs for your event. Register your club and support your staff with this tool",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/SpheneDev/VenuePlus",
         "Tags":  [
                      "customization"
                  ],
-        "DalamudApiLevel":  14,
+        "DalamudApiLevel":  15,
         "LoadPriority":  0,
         "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/images/venueplus.png",
         "Punchline":  "Easily manage your staff members, create VIP lists, and register your DJs for your event. Register your club and support your staff with this tool",
-        "DownloadLinkInstall":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.6.4/latest.zip",
-        "DownloadLinkUpdate":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.6.4/latest.zip",
-        "TestingDalamudApiLevel":  "14",
-        "IsHide":  "true"
+        "DownloadLinkInstall":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.6.5/latest.zip",
+        "DownloadLinkUpdate":  "https://github.com/SpheneDev/VenuePlus/releases/download/0.0.6.5/latest.zip",
+        "TestingDalamudApiLevel":  "15",
+        "IsHide":  "false"
     }
 ]
