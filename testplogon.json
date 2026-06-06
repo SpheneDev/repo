@@ -1,5 +1,4 @@
-﻿[
-{
+﻿[{
     "Author":  "SpheneDev",
     "Name":  "SpheneTest",
     "InternalName":  "SpheneTest",
@@ -17,5 +16,4 @@
     "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.15.13/latest.zip",
     "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.15.13/latest.zip",
     "IsHide":  "false"
-}
-]
+}]
