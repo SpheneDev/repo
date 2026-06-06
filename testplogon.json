@@ -1,21 +1,19 @@
-[
-    {
-        "Author": "SpheneDev",
-        "Name": "SpheneTest",
-        "InternalName": "SpheneTest",
-        "AssemblyVersion": "1.1.15.11",
-        "Description": "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm. (Test Build)",
-        "ApplicableVersion": "any",
-        "RepoUrl": "https://github.com/SpheneDev/SpheneClient",
-        "Tags": [
-            "customization"
-        ],
-        "DalamudApiLevel": 15,
-        "LoadPriority": 0,
-        "IconUrl": "https://raw.githubusercontent.com/SpheneDev/repo/main/images/Sphene.png",
-        "Punchline": "Become Endless. Return to Living Memory. (Test Build)",
-        "DownloadLinkInstall": "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.15.11/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.15.11/latest.zip",
-        "IsHide": "false"
-    }
-]
+﻿{
+    "Author":  "SpheneDev",
+    "Name":  "SpheneTest",
+    "InternalName":  "SpheneTest",
+    "AssemblyVersion":  "1.1.15.12",
+    "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm. (Test Build)",
+    "ApplicableVersion":  "any",
+    "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
+    "Tags":  [
+                 "customization"
+             ],
+    "DalamudApiLevel":  15,
+    "LoadPriority":  0,
+    "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/images/Sphene.png",
+    "Punchline":  "Become Endless. Return to Living Memory. (Test Build)",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.15.12/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.15.12/latest.zip",
+    "IsHide":  "false"
+}
