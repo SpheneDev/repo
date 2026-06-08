@@ -1,6 +1,27 @@
 {
     "changelogs": [
         {
+            "version": "0.0.6.5",
+            "date": "2026-06-08",
+            "title": "Update for Dalamud API 15",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Fixed & Improved",
+                    "sub": [
+                        {
+                            "subcategory": "QoL",
+                            "items": [
+                                "The VIP nameplate updates are now instantly reflected."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
             "version": "0.0.6.4",
             "title": "[26-02-12] Better Schedule Planer",
             "description": "",
