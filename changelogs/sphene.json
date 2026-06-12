@@ -1,6 +1,62 @@
 {
     "changelogs": [
         {
+            "version": "1.1.16.0",
+            "date": "2026-06-06",
+            "title": "",
+            "description": "",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Added",
+                    "sub": [
+                        {
+                            "subcategory": "Config",
+                            "items": [
+                                "Exporting and importing Sphene settings is now supported, with optional password protection for secret keys."
+                            ]
+                        },
+                        {
+                            "subcategory": "UI",
+                            "items": [
+                                "An indicator has been added in the character management to ensure that Sphene notices a name and world change."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Fixed & Improved",
+                    "sub": [
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "Leaving an Area Syncshell now reliably resets characters to their vanilla state."
+                            ]
+                        },
+                        {
+                            "subcategory": "QoL",
+                            "items": [
+                                "Sphene will now automatically migrate character name and World changes as soon as it detects them.",
+                                "The Control Panel now offers a simple way to add a character to Sphene if that character is not yet known."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Changed",
+                    "sub": [
+                        {
+                            "subcategory": "UI",
+                            "items": [
+                                "The Character Management section in Settings has been updated to align with the new behavior for Character Name and World changes, and has been made a bit cleaner and more visually appealing."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 2
+        },
+        {
             "version": "1.1.15.6",
             "date": "2026-05-22",
             "title": "",
