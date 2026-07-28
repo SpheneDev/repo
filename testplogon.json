@@ -2,7 +2,7 @@
     "Author":  "SpheneDev",
     "Name":  "SpheneTest",
     "InternalName":  "SpheneTest",
-    "AssemblyVersion":  "1.1.15.13",
+    "AssemblyVersion":  "1.1.16.33",
     "Description":  "Through the power of Living Memory, this plugin harmonizes your Penumbra modifications and Glamourer configurations across all connected souls, ensuring endless synchronization in your shared digital realm. (Test Build)",
     "ApplicableVersion":  "any",
     "RepoUrl":  "https://github.com/SpheneDev/SpheneClient",
@@ -13,7 +13,7 @@
     "LoadPriority":  0,
     "IconUrl":  "https://raw.githubusercontent.com/SpheneDev/repo/main/images/Sphene.png",
     "Punchline":  "Become Endless. Return to Living Memory. (Test Build)",
-    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.15.13/latest.zip",
-    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.15.13/latest.zip",
+    "DownloadLinkInstall":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.16.33/latest.zip",
+    "DownloadLinkUpdate":  "https://github.com/SpheneDev/SpheneClient/releases/download/v1.1.16.33/latest.zip",
     "IsHide":  "false"
 }]
