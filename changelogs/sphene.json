@@ -1,9 +1,73 @@
 {
     "changelogs": [
         {
+            "version": "1.1.17.0",
+            "date": "2026-07-13",
+            "title": "Community Overhaul",
+            "description": "Community pages, cross-syncshell feed, hub redesign and various fixes. This update focuses on a better community experience and improved stability.",
+            "isPrerelease": false,
+            "changes": [
+                {
+                    "description": "Changed",
+                    "sub": [
+                        {
+                            "subcategory": "ShrinkU",
+                            "items": [
+                                "ShrinkU Button in Penumbra now is smaller and behind a collapse"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "Fixed",
+                    "sub": [
+                        {
+                            "subcategory": "Sync",
+                            "items": [
+                                "City Syncshells that have been locked now work again",
+                                "Fixed a bug where others where not shown visible after Teleportation."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "structure_version": 3,
+            "banner": "repo/images/sphene-banner.png",
+            "highlights": [
+                {
+                    "icon": "users",
+                    "title": "Community Pages",
+                    "text": "News, events, galleries and staff tools for every syncshell."
+                },
+                {
+                    "icon": "comment",
+                    "title": "Direct Messages",
+                    "text": "Chat with friends right from the hub — plus server-side blocking."
+                },
+                {
+                    "icon": "shield",
+                    "title": "Better Stability",
+                    "text": "Cross-stack sync fixes and performance improvements."
+                },
+                {
+                    "icon": "wand-magic-sparkles",
+                    "title": "Hub Redesign",
+                    "text": "News, Community and Friends pages with a modern social look."
+                }
+            ],
+            "author": "Sphene Team",
+            "pinned": false,
+            "links": [
+                {
+                    "label": "Sphene Discord",
+                    "url": "https://discord.gg/sphene"
+                }
+            ]
+        },
+        {
             "version": "1.1.16.0",
             "date": "2026-06-12",
-            "title": "",
+            "title": "Added · Fixed & Improved · Changed",
             "description": "",
             "isPrerelease": false,
             "changes": [
@@ -54,12 +118,37 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "repo/images/1.1.16.0.png",
+            "highlights": [
+                {
+                    "icon": "users",
+                    "title": "Community Pages",
+                    "text": "News, events, galleries and staff tools for every syncshell."
+                },
+                {
+                    "icon": "comment",
+                    "title": "Direct Messages",
+                    "text": "Chat with friends right from the hub — plus server-side blocking."
+                },
+                {
+                    "icon": "shield",
+                    "title": "Better Stability",
+                    "text": "Cross-stack sync fixes and performance improvements."
+                },
+                {
+                    "icon": "wand-magic-sparkles",
+                    "title": "Hub Redesign",
+                    "text": "News, Community and Friends pages with a modern social look."
+                }
+            ],
+            "links": []
         },
         {
             "version": "1.1.15.6",
             "date": "2026-05-22",
-            "title": "",
+            "title": "Fixed",
             "description": "",
             "isPrerelease": false,
             "changes": [
@@ -75,12 +164,16 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.15.4",
             "date": "2026-05-05",
-            "title": "",
+            "title": "Fixed & Improved",
             "description": "",
             "isPrerelease": false,
             "changes": [
@@ -103,7 +196,11 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.15.1",
@@ -124,12 +221,16 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.15.0",
             "date": "2026-04-27",
-            "title": "",
+            "title": "Added · Fixed · Improved",
             "description": "!!IMPORTANT!! The Sphene icon may be a little off after this update, so adjust it yourself again. :) You now have to hold the icon for a moment before you can start dragging it, but you will see an indicator for this. \n\n                                                                                                              ",
             "isPrerelease": false,
             "changes": [
@@ -200,12 +301,16 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.14.5",
             "date": "2026-04-26",
-            "title": "",
+            "title": "Added · Fixed · Improved",
             "description": "Sphene Icon could be alittle bit off after this update just adjust it by urself again :).",
             "isPrerelease": true,
             "changes": [
@@ -250,7 +355,11 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.14.4",
@@ -271,12 +380,16 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.14.3",
             "date": "2026-04-21",
-            "title": "",
+            "title": "Fixed",
             "description": "",
             "isPrerelease": false,
             "changes": [
@@ -292,12 +405,16 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.14.2",
             "date": "2026-04-21",
-            "title": "",
+            "title": "Fixed",
             "description": "",
             "isPrerelease": false,
             "changes": [
@@ -319,12 +436,16 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.14.1",
             "date": "2026-04-20",
-            "title": "",
+            "title": "Fixed",
             "description": "!!IMPORTANT!! With this update, every area syncshell must be reconfigured due to changes in how they work and are broadcasted to users. Old SyncShells will not be broadcasting to the new system. However, it should now be much easier to configure your area SyncShells for your properties.",
             "isPrerelease": false,
             "changes": [
@@ -340,12 +461,16 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.14.0",
             "date": "2026-04-20",
-            "title": "",
+            "title": "Fixed · Improved · Changed",
             "description": "!!IMPORTANT!! With this update, every area syncshell must be reconfigured due to changes in how they work and are broadcasted to users. Old SyncShells will not be broadcasting to the new system. However, it should now be much easier to configure your area SyncShells for your properties.",
             "isPrerelease": false,
             "changes": [
@@ -394,12 +519,16 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.13.131",
             "date": "2026-04-07",
-            "title": "",
+            "title": "Fixed · Changed",
             "description": "",
             "isPrerelease": true,
             "changes": [
@@ -426,12 +555,16 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.13.122",
             "date": "2026-04-05",
-            "title": "",
+            "title": "Added · Fixed · Changed",
             "description": "",
             "isPrerelease": true,
             "changes": [
@@ -474,7 +607,11 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.13.1",
@@ -517,7 +654,11 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.13.0",
@@ -601,12 +742,16 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.12.275",
             "date": "2026-03-23",
-            "title": "",
+            "title": "Added · Fixed · Improved",
             "description": "",
             "isPrerelease": true,
             "changes": [
@@ -659,7 +804,11 @@
                     ]
                 }
             ],
-            "structure_version": 2
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.12.221",
@@ -682,7 +831,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.12.201",
@@ -707,7 +860,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.12.177",
@@ -738,7 +895,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.12.138",
@@ -764,7 +925,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.12.119",
@@ -785,7 +950,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.12.71",
@@ -806,7 +975,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.12.45",
@@ -821,7 +994,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.12.3",
@@ -836,7 +1013,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.12.1",
@@ -851,7 +1032,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.12.0",
@@ -907,7 +1092,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.11.1078",
@@ -929,7 +1118,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.11.1000",
@@ -971,7 +1164,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.11.295",
@@ -1011,7 +1208,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.11.280",
@@ -1032,7 +1233,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.11.262",
@@ -1047,7 +1252,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.11.259",
@@ -1079,7 +1288,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.11.21",
@@ -1100,7 +1313,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.11.0",
@@ -1150,7 +1367,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.10.35",
@@ -1171,7 +1392,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.10.24",
@@ -1186,7 +1411,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.10.22",
@@ -1208,7 +1437,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.10.13",
@@ -1224,7 +1457,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.10.6",
@@ -1253,7 +1490,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.10.5",
@@ -1274,7 +1515,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.10.4",
@@ -1290,7 +1535,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.10.3",
@@ -1318,7 +1567,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.10.0",
@@ -1333,7 +1586,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.9.0",
@@ -1348,7 +1605,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.8.0",
@@ -1364,7 +1625,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.7.0",
@@ -1386,7 +1651,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.6.0",
@@ -1423,7 +1692,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.5.0",
@@ -1457,7 +1730,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.4.0",
@@ -1472,7 +1749,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.3.0",
@@ -1487,7 +1768,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.2.0",
@@ -1523,7 +1808,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         },
         {
             "version": "1.1.1.0",
@@ -1573,7 +1862,11 @@
                     ]
                 }
             ],
-            "structure_version": 1
+            "structure_version": 3,
+            "author": "Sphene Team",
+            "banner": "",
+            "highlights": [],
+            "links": []
         }
     ]
 }
